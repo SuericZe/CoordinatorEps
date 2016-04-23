@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CoordinatorLayoutFloatingActivity">
+    <Button
+        android:id="@+id/bt_switch"
+        android:gravity="center"
+        android:background="#304FFE"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:text="@string/switch_with_coordinatorlayout"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/nocoordinator_actionbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/floating_icon"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+<!--ll-->
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator_floating_snack"
+        android:layout_below="@id/bt_switch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/floating_icon"
+            android:layout_margin="16dp"
+            />
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

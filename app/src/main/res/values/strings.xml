@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CoordinatorEps</string>
+    <string name="about">关于</string>
+    <string name="about_content">这个Demo展示了不同的CoordinatorLayout与其他控件一起协同工作的不同效果,也是这篇博客中所有的Demo集合,
+        对自己也是一个总结,如果能帮到你,就更好了.\n\n
+
+    愿大家都有一个美好的今天...
+    </string>
+    <string name="header_examples">Examples</string>
+    <string name="item_coordinator_floating_snack">Coordinator Snack Float</string>
+    <string name="github">GitHub</string>
+    <string name="switch_no_coordinatorlayout">不用CoordinatorLayout</string>
+    <string name="switch_with_coordinatorlayout">使用CoordinatorLayout</string>
+
+    <string name="coorditor_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+</resources>
