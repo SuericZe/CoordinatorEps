@@ -79,6 +79,15 @@
                         android:text="@string/item_coordinator_floating_snack"
                         android:drawableRight="@drawable/main_icon"
                         />
+
+                    <TextView
+                        android:id="@+id/tv_tablayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/tablayout"
+                        android:drawableRight="@drawable/main_icon"
+                        />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
         </LinearLayout>

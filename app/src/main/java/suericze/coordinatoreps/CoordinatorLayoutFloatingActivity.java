@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 /**
- *
+ *这是CoordinatorLayout与FloatingActionButton及Snackbar的结合使用
  */
 public class CoordinatorLayoutFloatingActivity extends AppCompatActivity {
 
