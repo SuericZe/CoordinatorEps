@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-
+/**
+ * Created by Eric on 2016/4/23.
+ * xxx
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private static final String GITHUB_INFO_ADDRESS = "https://github.com/smallcheric/CoordinatorEps";
     @Override

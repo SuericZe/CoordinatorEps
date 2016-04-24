@@ -11,6 +11,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+/**
+ *
+ */
 public class CoordinatorLayoutFloatingActivity extends AppCompatActivity {
 
     private Button mButton;
