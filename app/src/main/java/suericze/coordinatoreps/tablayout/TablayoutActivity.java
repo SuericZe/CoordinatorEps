@@ -58,7 +58,7 @@ public class TablayoutActivity extends AppCompatActivity {
         tv_tabcontext = (TextView) findViewById(R.id.tv_tabtext);
     }
 
-    private class MyCusAdapter extends FragmentPagerAdapter {
+    public class MyCusAdapter extends FragmentPagerAdapter {
 
         private String tabTitles[] = new String[]{"tab1","tab2","tab3"};
 

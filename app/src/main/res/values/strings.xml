@@ -17,5 +17,15 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="arrbarlayout">AppBarLayoutExp</string>
+    <string name="card_text">因为我们没有什么不同
+                            ,天黑时我们仰望同一片星空
+                            ,没有追求和付出哪来的成功
+                            ,谁说我们一定要走别人的路
+                            ,谁说辉煌背后没有痛苦
+                            ,只要为了梦想不服输
+                            ,再苦也不停止脚步</string>
+    <string name="collapsing">CollapsingToolbarExp</string>
+    <string name="cusbehavior">CusBehaviorExp</string>
 
 </resources>

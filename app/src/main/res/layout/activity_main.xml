@@ -88,6 +88,30 @@
                         android:text="@string/tablayout"
                         android:drawableRight="@drawable/main_icon"
                         />
+                    <TextView
+                        android:id="@+id/tv_appbar_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/arrbarlayout"
+                        android:drawableRight="@drawable/main_icon"
+                        />
+                    <TextView
+                        android:id="@+id/tv_collapsing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/collapsing"
+                        android:drawableRight="@drawable/main_icon"
+                        />
+                    <TextView
+                        android:id="@+id/tv_cus_behavior"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/cusbehavior"
+                        android:drawableRight="@drawable/main_icon"
+                        />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
         </LinearLayout>

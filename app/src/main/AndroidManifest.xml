@@ -16,7 +16,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".CoordinatorLayoutFloatingActivity" />
-        <activity android:name=".tablayout.TablayoutActivity"></activity>
+        <activity android:name=".tablayout.TablayoutActivity" />
+        <activity android:name=".appbarlayout.AppBarLayoutActivity" />
+        <activity android:name=".CollapsingToobar.CollapsingToobarActivity" />
+        <activity android:name=".CusBehavior.MyCusBehaviorActivity"></activity>
     </application>
 
 </manifest>
